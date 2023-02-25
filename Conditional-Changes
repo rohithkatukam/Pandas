@@ -1,0 +1,6 @@
+df.loc[['Type 1'] ==  'Fire', 'Type 1'] = 'Flammeble'
+##In the above statement, Fire in the Type 1 column is replaced with "Flammable"
+df.loc[['Type 1] == 'Fire', 'Legendary'] == 'True'
+##Above statement makes every Fire pokemon's Legendary = True
+
+df.local[['Total'] > 500, ['Generation','Legendary']] = 'Test Value'
