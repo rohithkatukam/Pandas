@@ -1,3 +1,11 @@
 import pandas as pd
-df = pd.read_csv(#"file path"|"file name")
+df = pd.read_csv("File name")
 print(df.head(3)
+
+##Incase, if the data is in Excel format
+df_xlsx = pd.read_xlsx("File name")
+print(df_xlsx.head(3))
+
+##Incase, if the data is in Text format
+df_txt = pd.read_txt('File name')
+print(df_txt.head(2))
