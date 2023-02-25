@@ -1,0 +1,6 @@
+#importing pandas can be done in many ways. Easisest way is by installing through your command prompt.
+#Steps for installing Pandas  --->
+  1. Open Search and search for cmd, open it.
+  2. Incase of MacOs, search for terminal and open it.
+  3. Enter following code, "pip install pandas". Wait untill it get installed.
+  4. Run same code, to check whether it installed or not.
