@@ -1,0 +1,14 @@
+###Reading Columns
+df.columns
+
+##Read Each Column
+df.[['Column-name1', 'Column-name2']
+
+###Read Each row
+df.iloc[0:4]
+for index, row in iterrows():
+  print(index, row['Row-name'])
+df.loc[df['Row'] == "Paricular-type-elements"]
+
+###Read a specific Element [Row, Column]
+df.iloc[3,4]
